@@ -1,4 +1,4 @@
-# Mohd saiful Islam - Data Analysis Portfolio
+# Mohd saiful Islam - Portfolio
 
 Welcome! This repository contains the complete template for a professional, one-page data analysis portfolio website, hosted for free on GitHub Pages.
 
