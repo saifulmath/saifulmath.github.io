@@ -164,6 +164,59 @@ nav ul li a:hover::after {
     background: var(--accent-color);
 }
 
+/* --- 5.2 experience Section --- */
+.experience {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.job-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.job-card h2 {
+  color: #0056b3;
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+.job-card h3 {
+  color: #333;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.duration {
+  color: #888;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.stack {
+  margin-top: 12px;
+  color: #555;
+  font-size: 0.95rem;
+}
+
 /* --- 5.1 About Section --- */
 .about-content {
     display: flex;
@@ -192,7 +245,6 @@ nav ul li a:hover::after {
     margin-bottom: 15px;
     line-height: 1.9;
 }
-
 
 /* --- 5.5 Project Cards --- */
 .projects-grid {
