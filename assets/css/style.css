@@ -63,7 +63,7 @@ img {
 header {
     background: var(--primary-color);
     color: var(--white-color);
-    padding: 50px 0;
+    padding: 70px 0;
     margin-bottom: 0; 
     text-align: center;
 }
@@ -100,13 +100,32 @@ header p {
 /* --- 4. Navigation --- */
 nav {
     background-color: rgba(26, 42, 76, 0.95); /* Adjusted for new primary color */
-    margin-top: -1px;
     backdrop-filter: blur(5px);
     position: sticky;
     top: 0;
     z-index: 1000;
     border-bottom: 1px solid var(--secondary-color);
 }
+
+/* --- FIX HEADER–NAV GAP --- */
+header {
+  margin-bottom: 0;          /* eliminate external spacing */
+  padding-bottom: 40px;      /* reduce to make it tighter */
+}
+
+header h1,
+header p,
+header .social-links {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin-top: 0;
+  background-color: var(--primary-color); /* solid color removes faint line */
+  border-top: none;
+}
+
 
 nav ul {
     display: flex;
