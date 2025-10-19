@@ -63,8 +63,7 @@ img {
 header {
     background: var(--primary-color);
     color: var(--white-color);
-    padding: 70px 0;
-    margin-bottom: 0; 
+    padding: 50px 0 20px;
     text-align: center;
 }
 
@@ -72,7 +71,6 @@ header h1 {
     font-family: var(--font-heading);
     font-size: 4rem;
     font-weight: 700;
-    margin-bottom: 15px;
     letter-spacing: 1px;
 }
 
@@ -80,7 +78,6 @@ header p {
     font-size: 1.3rem;
     font-weight: 300;
     opacity: 0.9;
-    margin-bottom: 35px;
 }
 
 /* --- 3.5 Social Icons --- */
@@ -104,27 +101,8 @@ nav {
     position: sticky;
     top: 0;
     z-index: 1000;
-    border-bottom: 1px solid var(--secondary-color);
 }
 
-/* --- FIX HEADER–NAV GAP --- */
-header {
-  margin-bottom: 0;          /* eliminate external spacing */
-  padding-bottom: 40px;      /* reduce to make it tighter */
-}
-
-header h1,
-header p,
-header .social-links {
-  margin: 0;
-  padding: 0;
-}
-
-nav {
-  margin-top: 0;
-  background-color: var(--primary-color); /* solid color removes faint line */
-  border-top: none;
-}
 
 
 nav ul {
@@ -221,15 +199,6 @@ nav ul li a:hover::after {
   color: #888;
   font-style: italic;
   margin-bottom: 10px;
-}
-
-ul {
-  margin-left: 20px;
-  margin-top: 10px;
-}
-
-ul li {
-  margin-bottom: 8px;
 }
 
 .stack {
